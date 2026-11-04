@@ -1,0 +1,16 @@
+# Claude Code session config, not part of the site
+.claude/
+
+# superseded copy of the design spec
+DESIGN-backup.md
+
+# if Node ever gets installed here
+node_modules/
+package-lock.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# 本地中文速查，不发布
+NOTES-zh.md
