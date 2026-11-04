@@ -82,8 +82,9 @@ round dot, and do not invent other decorative marks.
 
 ## 4. Component styling
 
-**Navigation** (sticky top, transparent, gains a 1px `--line` bottom border once
-the page is scrolled)
+**Navigation** (sticky top, solid `--bg` background so content scrolling under
+it is hidden, gains a 1px `--line` bottom border once the page is scrolled.
+Keep the height as it is: content being cut at its edge mid-scroll is normal)
 
 - Left: "MinJun Huang" at label size, in `--ink`
 - Right: Work / About / CV. `CV` is in `--accent` and opens a PDF in a new tab.
