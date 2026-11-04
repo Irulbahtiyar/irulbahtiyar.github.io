@@ -117,7 +117,7 @@ async function renderCase(root) {
       return;
     }
 
-    document.title = `${project.title} — MinJun Huang`;
+    document.title = `${project.title}, MinJun Huang`;
 
     const back = el("a", "label back-link", "Back to work");
     back.href = "index.html#work";
